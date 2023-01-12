@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+kmeans*.py
+kmean*.c
+kmean*.h
+setup.py
