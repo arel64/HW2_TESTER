@@ -4,7 +4,7 @@ Test for HW2 2023
 Clone Repo
 Drag kmeans_pp.py,setup.py, c and header files to into the same directoy as test.py  
 run: python3 setup.py build_ext --inplace  
-run: python3 test.py  S
+run: python3 test.py  
 
 Good output is:
 
