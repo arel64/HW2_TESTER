@@ -2,15 +2,15 @@
 Test for HW2 2023
 
 Clone Repo
-Drag kmeans_pp.py,setup.py, c and header files to into the same directoy as test.py
-run: python3 setup.py build_ext --inplace
-run: python3 test.py
+Drag kmeans_pp.py,setup.py, c and header files to into the same directoy as test.py  
+run: python3 setup.py build_ext --inplace  
+run: python3 test.py  S
 
 Good output is:
 
 ..
 ----------------------------------------------------------------------
-Ran 2 tests in ~Time~s
+Ran 2 tests in Time s
 
 OK
 
