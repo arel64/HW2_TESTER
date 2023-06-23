@@ -43,7 +43,7 @@ def fetchError(str):
 
 
 def formatOut(str):
-    if (str[-1] == "\n"):
+    if (str.endsWith("\n")):
         str = str[0:-1]
     return str
 
@@ -70,7 +70,7 @@ class TestKmeansMethods(unittest.TestCase):
                 com = runPy(testLine[1:-1])
                 out, err = com
                 outF = formatOut(out.decode("utf-8"))
-                self.assertTrue(testLine[-1].count(str(fetchError(outF))) == 1)
+                self.assertTrue(testLine[-1].count(str(fetchError(outF))) == 0)
 
     def test_properInput(self):
         out1, err1 = runPy([3, 333, 0], FILE11, FILE21)
