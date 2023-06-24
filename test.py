@@ -43,7 +43,7 @@ def fetchError(str):
 
 
 def formatOut(str):
-    if (str.endsWith("\n")):
+    if (str.endswith("\n")):
         str = str[0:-1]
     return str
 
